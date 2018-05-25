@@ -1,0 +1,35 @@
+{
+  "name": "PHAR",
+  "version": "1.0.0",
+  "description": "The Pathways Home Animal Rescue Server",
+  "private": false,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "heroku",
+    "pathways",
+    "home",
+    "animal",
+    "rescue"
+  ],
+  "engines": {
+    "node": "8.7.0"
+  },
+  "author": "Nick Gatti",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "knex": "^0.13.0",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0",
+    "pg": "^7.3.0"
+  }
+}
