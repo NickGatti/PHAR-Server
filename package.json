@@ -2,7 +2,7 @@
   "name": "PHAR",
   "version": "1.0.0",
   "description": "The Pathways Home Animal Rescue Server",
-  "private": false,
+  "private": true,
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
